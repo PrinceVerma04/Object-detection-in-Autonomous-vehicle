@@ -1,0 +1,31 @@
+# secrets
+.env
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# raw/unified datasets (huge, reproducible via data/download_datasets.py + DATASETS.md)
+data/raw/
+data/unified/
+
+# Drive-upload staging (symlink farm mirroring data/, plus its zip)
+drive_upload/
+drive_upload.zip
+
+# pretrained checkpoints (auto-downloaded by ultralytics on first run)
+yolo11n.pt
+weights/yolo26n.pt
+
+# android build artifacts
+android_app/app/build/
+android_app/.gradle/
+android_app/local.properties
+android_app/.idea/
+android_app/*.iml
+
+# local test captures / scratch
+reports/
+reports_from_phone/
+analyse/

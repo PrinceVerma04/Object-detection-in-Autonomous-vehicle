@@ -1,0 +1,12 @@
+path: /home/coral/Desktop/street/data/unified
+train: images/train
+val: images/val
+
+names:
+  0: garbage_pile
+  1: pothole
+  2: manhole_open_broken
+  3: streetlight_pole
+  4: encroachment
+  5: billboard_hoarding
+  6: cattle
